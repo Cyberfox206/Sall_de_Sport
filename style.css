@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --bleuecolor: #00738d;
+    --yelowcolor: #dba217;
+    --fonttitre2: 'Norican', cursive;
+    --fonttext: 'PT Sans', sans-serif;
+    --fonttitre1: 'Coda Caption', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(asset/img/fond.jpg);
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul {
+    margin: 70px 0px;
+}
+
+nav ul li {
+    display: flex;
+    display: inline;
+    margin: 0px 40px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul li a {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: var(--fonttitre2);
+}
+
+nav p {
+    width: 100%;
+    color: black;
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--fonttitre1);
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+nav p span {
+    color: white;
+}
+
+h1 {
+    display: flex;
+    font-size: 4.4em;
+    margin-top: 135px;
+    align-items: center;
+    justify-content: center;
+    color: var(--yelowcolor);
+    text-transform: capitalize;
+    font-family: var(--fonttitre1);
+}
+
+#h1parte {
+    color: white;
+    font-size: 3.9em;
+    text-align: center;
+    margin-bottom: 250px;
+    transform: translateY(-60%);
+    font-family: var(--fonttitre2);
+}
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--bleuecolor);
+}
+
+#section_toute_nos_salles {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section_toute_nos_salles h2 {
+    font-size: 2.5em;
+    margin-top: 30px;
+    color: var(--yelowcolor);
+    font-family: var(--fonttitre1);
+}
+
+#section_toute_nos_salles p {
+    color: white;
+    font-size: 3em;
+    transform: translateY(-60%);
+    font-family: var(--fonttitre2);
+}
