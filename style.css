@@ -30,6 +30,12 @@ header {
     background-image: url(asset/img/fond.jpg);
 }
 
+hr {
+    color: white;
+    width: 90%;
+    margin: 60px 0px;
+}
+
 nav {
     width: 100%;
     display: flex;
@@ -39,13 +45,14 @@ nav {
 }
 
 nav ul {
-    margin: 70px 0px;
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
 
 nav ul li {
     display: flex;
     display: inline;
-    margin: 0px 40px;
+    margin: 0px 50px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -62,7 +69,7 @@ nav ul li a {
 nav p {
     width: 100%;
     color: black;
-    font-size: 1.1em;
+    font-size: 1.35em;
     text-align: center;
     text-transform: uppercase;
     font-family: var(--fonttitre1);
@@ -82,6 +89,7 @@ h1 {
     color: var(--yelowcolor);
     text-transform: capitalize;
     font-family: var(--fonttitre1);
+    text-shadow: 0px 0px 12px #000000;
 }
 
 #h1parte {
@@ -91,6 +99,7 @@ h1 {
     margin-bottom: 250px;
     transform: translateY(-60%);
     font-family: var(--fonttitre2);
+    text-shadow: 0px 0px 12px #000000;
 }
 
 main {
@@ -111,15 +120,211 @@ main {
 }
 
 #section_toute_nos_salles h2 {
-    font-size: 2.5em;
-    margin-top: 30px;
+    font-size: 3.5em;
+    margin-top: 90px;
+    text-align: center;
     color: var(--yelowcolor);
+    text-transform: capitalize;
     font-family: var(--fonttitre1);
+    text-shadow: 0px 0px 12px #000000;
 }
 
 #section_toute_nos_salles p {
     color: white;
-    font-size: 3em;
+    font-size: 3.4em;
+    text-transform: capitalize;
     transform: translateY(-60%);
     font-family: var(--fonttitre2);
+    text-shadow: 0px 0px 12px #000000;
+}
+
+#section_lyon_6 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section_lyon_6 h2 {
+    font-size: 3.5em;
+    text-align: center;
+    color: var(--yelowcolor);
+    text-transform: capitalize;
+    font-family: var(--fonttitre1);
+    text-shadow: 0px 0px 12px #000000;
+}
+
+#section_lyon {
+    width: 90%;
+}
+
+#section_lyon h2 {
+    font-size: 3.5em;
+    text-align: center;
+    color: var(--yelowcolor);
+    text-transform: capitalize;
+    font-family: var(--fonttitre1);
+    text-shadow: 0px 0px 12px #000000;
+}
+
+#foch {
+    color: white;
+    font-size: 3.4em;
+    text-align: center;
+    text-transform: capitalize;
+    transform: translateY(-60%);
+    font-family: var(--fonttitre2);
+    text-shadow: 0px 0px 12px #000000;
+}
+
+#section_lyon img {
+    float: left;
+    width: 400px;
+    display: inline;
+    margin-right: 30px;
+}
+
+#text_lyon_6 {
+    color: white;
+    line-height: 23px;
+    font-family: var(--fonttext);
+}
+
+#lyon_5 {
+    width: 90%;
+}
+
+#lyon_5 h2 {
+    font-size: 3.5em;
+    text-align: center;
+    color: var(--yelowcolor);
+    text-transform: capitalize;
+    font-family: var(--fonttitre1);
+    text-shadow: 0px 0px 12px #000000;
+}
+
+#vieuxlyon {
+    color: white;
+    font-size: 3.4em;
+    text-align: center;
+    text-transform: capitalize;
+    transform: translateY(-60%);
+    font-family: var(--fonttitre2);
+    text-shadow: 0px 0px 12px #000000;
+}
+
+#lyon_5 img {
+    float: right;
+    width: 400px;
+    display: inline;
+    margin-left: 20px;
+}
+
+#textvieuxlyon {
+    color: white;
+    line-height: 23px;
+    font-family: var(--fonttext);
+}
+
+#lyon_2 {
+    width: 90%;
+}
+
+#lyon_2 h2 {
+    font-size: 3.5em;
+    text-align: center;
+    color: var(--yelowcolor);
+    text-transform: capitalize;
+    font-family: var(--fonttitre1);
+    text-shadow: 0px 0px 12px #000000;
+}
+
+#bellecour {
+    color: white;
+    font-size: 3.4em;
+    text-align: center;
+    text-transform: capitalize;
+    transform: translateY(-60%);
+    font-family: var(--fonttitre2);
+    text-shadow: 0px 0px 12px #000000;
+}
+
+#lyon_2 img {
+    float: left;
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+#text_bellecour {
+    color: white;
+    line-height: 23px;
+    font-family: var(--fonttext);
+}
+
+
+#temoignages {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(50deg, rgba(2, 0, 36, 1) 0%, rgba(0, 65, 91, 1) 50%, rgba(0, 115, 141, 1) 100%);
+}
+
+#temoignages h2 {
+    width: 100%;
+    font-size: 2.5em;
+    margin: 30px 0px;
+    text-align: center;
+    color: var(--yelowcolor);
+    font-family: var(--fonttitre1);
+}
+
+#temoignages article {
+    width: 25%;
+    display: flex;
+    margin: 20px 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#temoignages article img {
+    width: 300px;
+}
+
+#temoignages article h3 {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: var(--fonttitre2);
+}
+
+#temoignages article p {
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    font-family: var(--fonttext);
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer img {
+    width: 120px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+footer p {
+    color: black;
+    margin: 10px 0px;
+    font-family: var(--fonttext);
 }
